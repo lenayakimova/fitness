@@ -386,7 +386,6 @@ h1, h2, h3, h4 {
 .title {
   font-size: 33px;
   color: #55575b;
-  text-align: center;
 }
 
 .hero {
@@ -459,6 +458,10 @@ h1, h2, h3, h4 {
           transform: skew(0deg, 2deg);
 }
 
+.benefit__title {
+  text-align: center;
+}
+
 .benefit__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -492,5 +495,56 @@ h1, h2, h3, h4 {
   line-height: 20.83px;
   font-family: 'Century Gothic Regular';
   font-weight: 400;
+}
+
+.offer {
+  background-color: #e8e8e8;
+  -webkit-transform: skew(0deg, 0deg);
+          transform: skew(0deg, 0deg);
+}
+
+.offer-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: relative;
+  height: 285px;
+}
+
+.offer__img {
+  margin-top: 19px;
+  position: absolute;
+  bottom: 0;
+}
+
+.offer__people {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.offer__button {
+  color: #ffffff;
+  padding: 12px 42px;
+  background-color: #282b26;
+  text-transform: uppercase;
+  font-size: 19px;
+  margin-top: 14px;
+}
+
+.offer__button:hover {
+  background-color: #69afdd;
 }
 /*# sourceMappingURL=style.css.map */
