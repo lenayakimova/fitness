@@ -655,7 +655,8 @@ h1, h2, h3, h4 {
 }
 
 .form-mail__input {
-  width: 177px;
+  padding: 13px 0 13px 15px;
+  width: 180px;
   height: 41px;
   margin-bottom: 20px;
 }
@@ -665,7 +666,8 @@ h1, h2, h3, h4 {
 }
 
 .form-mail__text {
-  width: 380px;
+  width: 385px;
+  padding: 10px 15px;
 }
 
 .form-mail__button {
