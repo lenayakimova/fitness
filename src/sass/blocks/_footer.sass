@@ -1,2 +1,44 @@
 .footer
-	background-color: $text-color
+	background-color: $btn-color
+	font-size: 15px
+	padding: 22px 0
+	+reg
+	&-block 
+		display: flex
+		align-items: center
+		justify-content: space-between
+	&__questions
+		text-transform: uppercase
+		color: $main-text
+		display: block
+		margin-bottom: 11px
+	&__answer
+		color: #9d9d9d
+		display: block
+		margin-bottom: 3px
+		&:last-child
+			margin-bottom: 0
+	&__document
+		display: block
+		color: #848484
+		margin-bottom: 10px
+		width: 168px
+		&:last-child
+			margin-bottom: 0
+	&__item
+		display: flex
+	&__inform
+		color: #dcdcdd
+		margin-bottom: 10px
+		margin-left: 14px
+	&__img
+		text-align: center
+		width: 15px
+		height: 15px
+		line-height: 15
+	&__icon
+		margin-right: 16px
+		&:last-child
+			margin-right: 0
+	
+
