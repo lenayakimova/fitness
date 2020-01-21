@@ -101,10 +101,6 @@
 		<div class="container">
 			<div class="insta-block">
 				<h2 class="insta__title title">Мы в соц. сетях</h2>
-				<iframe
-					src="https://averin.pro/widget.php?l=vsn_fitness&style=1&width=250&gallery=1&s=200&icc=4&icr=2&t=0&tt=Мы в Инстаграм&h=0&ttcolor=FFFFFF&th=c3c3c3&bw=f9f9f9&bscolor=FFFFFF&bs=FF0000&ts=Подписаться"
-					allowtransparency="true" frameborder="0" scrolling="no"
-					style="border:none;overflow:hidden;width:895px; height: 450px"></iframe>
 			</div>
 		</div>
 	</section>
